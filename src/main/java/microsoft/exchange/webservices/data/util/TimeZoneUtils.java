@@ -624,6 +624,12 @@ public final class TimeZoneUtils {
     map.put("America/Metlakatla", "Pacific Standard Time");
     map.put("America/Miquelon", "South America Standard Time");
     map.put("Asia/Gaza", "Middle East Standard Time");
+
+        // java 8 new ids
+        map.put("Europe/Astrakhan", "UTC+4");
+        map.put("Europe/Kirov", "UTC+3");
+        map.put("Europe/Ulyanovsk", "UTC+4");
+
     return map;
   }
 
